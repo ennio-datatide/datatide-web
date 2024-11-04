@@ -7,34 +7,24 @@ export const headerData = {
       href: getPermalink('/'),
     },
     {
-      text: 'Company',
-      links: [
-        {
-          text: 'Services',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-      ],
+      text: 'Blog',
+      href: getBlogPermalink(),
     },
     {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Posts',
-          href: getBlogPermalink(),
-        },
-      ],
+      text: 'Services',
+      href: getPermalink('/services'),
+    },
+    {
+      text: 'Pricing',
+      href: getPermalink('/pricing'),
+    },
+    {
+      text: 'About us',
+      href: getPermalink('/about'),
+    },
+    {
+      text: 'Contact',
+      href: getPermalink('/contact'),
     },
   ],
 };
@@ -44,11 +34,11 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Services', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Contact', href: '#' },
+        { text: 'About', href: '/about' },
+        { text: 'Blog', href: '/blog' },
+        { text: 'Services', href: '/services' },
+        { text: 'Pricing', href: '/pricing' },
+        { text: 'Contact', href: '/contact' },
       ],
     },
   ],
