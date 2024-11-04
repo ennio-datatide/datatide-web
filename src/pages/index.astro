@@ -13,7 +13,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'DataTide — Comprehensive Data and Analytics Engineering Solutions as a Service',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,28 +25,25 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Get in touch',
+        href: '/contact',
+        icon: 'tabler:message',
       },
       { text: 'Learn more', href: '#features' },
     ]}
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/datamide-hero-image.png', alt: 'DataTide Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      Tailored <span class="hidden xl:inline">Data and Analytics</span>
+      <span class="text-accent dark:text-white highlight"> Engineering Solutions</span> for Your Business
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        <span class="font-semibold">DataTide</span> offers a dedicated team of data experts providing custom solutions designed to drive your business forward efficiently and effectively.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
-      Blogs.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">DataTide: Precision Engineering for Data-Driven Success.</span>
+      Designed for Startups, Small Businesses, and Enterprises of all sizes.
     </Fragment>
   </Hero>
 
@@ -58,319 +55,178 @@ const metadata = {
 
   <Features
     id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    tagline="Our Expertise"
+    title="What DataTide Delivers"
+    subtitle="Empowering your business with innovative, scalable data solutions."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Advanced Data Architecture',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Tailored data platforms that consolidate infrastructure and boost performance for reliable growth.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Generative AI Integration',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Cutting-edge AI capabilities that transform insights into actionable decisions for enhanced business intelligence.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Best Practice Solutions',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Robust, secure, and scalable data systems designed with industry best practices to evolve with your needs.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Performance Optimization',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'Streamlined data systems for optimal efficiency, enhancing user experience and freeing resources for growth.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Data Governance & Compliance',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+          'Ensuring data integrity with rigorous governance practices that meet the highest security and regulatory standards.',
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Cloud Migration Expertise',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
+          'Seamless cloud transitions that unlock enhanced scalability, performance, and flexibility for your organization.',
+        icon: 'tabler:cloud-upload',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
+
+  />
 
   <Content
-    isReversed
-    tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
-    items={[
-      {
-        title: 'Built on top of Astro 4.0',
-        description:
-          'Benefiting from the performance and developer-friendly features of this modern static site generator.',
-      },
-      {
-        title: 'Styled using Tailwind CSS',
-        description:
-          'Facilitating rapid design and consistent styling with this highly popular utility-first CSS framework.',
-      },
-      {
-        title: 'Cross-browser compatibility',
-        description:
-          'Ensure your website looks and functions consistently across various web browsers, delivering a seamless experience to all users.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Colorful Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on modern foundations</h3>
-      Gain a competitive advantage by incorporating industry leading practices
-    </Fragment>
+  isReversed
+  tagline="Our Approach"
+  title="Building Future-Proof Data Solutions"
+  items={[
+    {
+      title: 'Modern Data Architecture',
+      description:
+        'We design robust and scalable architectures that serve as the backbone of your data strategy, built to evolve with your business needs and technological advancements.',
+    },
+    {
+      title: 'Advanced Data Engineering Practices',
+      description:
+        'Our team employs state-of-the-art engineering methods, including modular ELT pipelines and real-time data processing, to ensure clean, reliable, and actionable data.',
+    },
+    {
+      title: 'Scalable Cloud Solutions',
+      description:
+        'With deep expertise in cloud platforms, we create solutions that are flexible and scalable, allowing for seamless growth and adaptation as your data demands increase.',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    alt: 'Future-Proof Data Solutions Image',
+  }}
+>
+  <Fragment slot="content">
+    <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Building on Modern Foundations</h3>
+    Empower your business with resilient, future-focused data solutions.
+  </Fragment>
 
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+  </Fragment>
+</Content>
 
-  <!-- Content Widget **************** -->
-
-  <Content
-    isAfterContent
-    items={[
-      {
-        title: 'High level of customization',
-        description: `Tailor the template effortlessly to match your brand's identity and requirements, making your website distinct and saving you time.`,
-      },
-      {
-        title: 'Multiple layout possibilities',
-        description:
-          'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
-      },
-      {
-        title: 'Fully responsive design',
-        description:
-          "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-      },
-      {
-        title: 'Integration of media',
-        description:
-          'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-      alt: 'Blueprint Image',
-    }}
-  >
-    <Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    isAfterContent
-    items={[
-      {
-        title: 'Enhanced user engagement',
-        description:
-          'Captivate your audience with interactive elements, intuitive navigation, and visually appealing layouts, encouraging longer visits.',
-      },
-      {
-        title: 'Continuous improvement',
-        description:
-          'Ensure your website stays aligned with the latest trends and technologies through regular updates and enhancements.',
-      },
-      {
-        title: 'Time and resource efficiency',
-        description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
-      },
-      {
-        title: 'Community support',
-        description: `Join the growing AstroWind community for insights, resources, and assistance, ensuring you're never alone on your web development journey.`,
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
-    }}
-  >
-    <Fragment slot="content">Designed to foster growth and success.</Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
-    title="Get your dream website up and running in no time with AstroWind."
-    items={[
-      {
-        title: 'Step 1: <span class="font-medium">Download</span>',
-        description:
-          "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
-        icon: 'tabler:package',
-      },
-      {
-        title: 'Step 2: <span class="font-medium">Add content</span>',
-        description:
-          "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
-        icon: 'tabler:letter-case',
-      },
-      {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
-        description:
-          'Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.',
-        icon: 'tabler:paint',
-      },
-      {
-        title: 'Ready!',
-        icon: 'tabler:check',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
-    }}
-  />
+<Steps
+  title="Launch Your Data Platform with DataTide in Three Simple Steps"
+  items={[
+    {
+      title: 'Step 1: <span class="font-medium">Contact Us</span>',
+      description:
+        "Let's discuss your unique data and analytics needs. We’ll schedule an initial session to gather your requirements and understand your objectives, ensuring a comprehensive view of your business goals.",
+      icon: 'tabler:package',
+    },
+    {
+      title: 'Step 2: <span class="font-medium">Design & Develop</span>',
+      description:
+        "Our experts will create a tailored solution that aligns with your vision. Throughout the development process, we will have regular check-ins to keep you informed and ensure alignment with your expectations.",
+      icon: 'tabler:letter-case',
+    },
+    {
+      title: 'Step 3: <span class="font-medium">Deploy & Optimize</span>',
+      description:
+        'We facilitate a smooth deployment of your data platform and provide ongoing optimization to guarantee peak performance. Our team remains available for support as your needs evolve.',
+      icon: 'tabler:paint',
+    },
+    {
+      title: 'Success!',
+      icon: 'tabler:check',
+    },
+  ]}
+  image={{
+    src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
+    alt: 'Data Platform Deployment Image',
+  }}
+/>
 
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
-
-  <!-- HighlightedPosts Widget ******* -->
+  <!-- BlogLatestPosts Widget ******* -->
 
   <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
+    title="Explore More in Our Blog"
+    information={`Our blog dives into data engineering, analytics, and best practices for scalable solutions.
+                        Each article is designed to provide valuable insights and knowledge to advance your understanding in data engineering.
                 `}
   />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
+  title="Frequently Asked Questions"
+  subtitle="Get answers to common questions about DataTide's services and approach."
+  tagline="FAQs"
+  classes={{ container: 'max-w-6xl' }}
+  items={[
+    {
+      title: 'What sets DataTide apart from other data service providers?',
+      description:
+        "At DataTide, we focus on customized solutions that align with your unique business needs. Our extensive experience in data architecture, cloud migration, and performance optimization enables us to deliver scalable and efficient data platforms that empower your organization.",
+    },
+    {
+      title: 'How does DataTide ensure data security and compliance?',
+      description:
+        "We prioritize data governance and compliance by implementing robust security measures and adhering to industry standards. Our team will work closely with you to ensure that your data management practices align with regulatory requirements, minimizing risk and protecting your assets.",
+    },
+    {
+      title: 'What is the process for developing a data solution with DataTide?',
+      description:
+        "Our process begins with a thorough discussion of your needs during our initial session. We will gather requirements and outline a tailored plan. Throughout the development phase, we maintain regular check-ins to ensure alignment with your goals, followed by a smooth deployment and ongoing optimization.",
+    },
+    {
+      title: 'Which industries does DataTide serve?',
+      description:
+        "We provide adaptable data solutions across various sectors, including finance, healthcare, retail, and technology. Our industry-agnostic approach allows us to tailor our services to meet the specific challenges and opportunities within your field.",
+    },
+    {
+      title: 'How does DataTide handle data migration to the cloud?',
+      description:
+        "Our team specializes in seamless cloud migration, ensuring that your existing data is transferred securely and efficiently. We utilize best practices and modern tools to minimize disruption and enhance performance in your new cloud environment.",
+    },
+  ]}
+/>
+
   />
 
   <!-- Stats Widget ****************** -->
 
   <Stats
     stats={[
-      { title: 'Downloads', amount: '132K' },
-      { title: 'Stars', amount: '24.8K' },
-      { title: 'Forks', amount: '10.3K' },
-      { title: 'Users', amount: '48.4K' },
+      { title: 'Total Years of Industry Experience', amount: '50+' },
+      { title: 'Solutions Delivered', amount: '50+' },
+      { title: 'Clients Served', amount: '10+' },
+      { title: 'Data Experts', amount: '5+' },
     ]}
   />
 
@@ -380,20 +236,14 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Contact Us',
+        href: '/contact',
+        icon: 'tabler:message',
       },
     ]}
   >
     <Fragment slot="title">
-      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      Transform Your Data&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">with DataTide</span>
     </Fragment>
   </CallToAction>
 </Layout>
